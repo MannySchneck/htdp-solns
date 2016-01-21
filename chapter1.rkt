@@ -26,3 +26,13 @@
 ;;  "_"                           ; the "_" to be inserted
 ;;  (substring str i))            ; the rest of the string, from "o" to the end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 4
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; By starting the second substring at i + 1, the character at
+;; position i is left out.
+;; (define str "helloworld")
+;; (define i 5)
+;; (string-append
+;;  (substring str 0 i)
+;;  (substring str (add1 i)))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
