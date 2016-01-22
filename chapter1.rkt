@@ -1,5 +1,6 @@
 #lang racket
-
+(require 2htdp/image)
+(require 2htdp/universe)
 ;; Author: Manny Schneck
 
 ; Exercise 1
@@ -35,4 +36,10 @@
 ;; (string-append
 ;;  (substring str 0 i)
 ;;  (substring str (add1 i)))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (define cat (circle 10 'solid 'black))
+;; (* (image-height cat)
+;;    (image-width cat))n
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
