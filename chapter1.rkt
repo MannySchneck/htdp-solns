@@ -43,3 +43,17 @@
 ;; (* (image-height cat)
 ;;    (image-width cat))n
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 6
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (define left-wheel (circle 10 'solid 'black))
+;; (define right-wheel (circle 10 'solid 'black))
+;; (define body (beside/align 'bottom
+;;                            (rectangle 20 15 'solid 'red)
+;;                            (rectangle 60 30 'solid 'red)
+;;                            (rectangle 20 15 'solid 'red)))
+;; (overlay/align 'left 'bottom
+;;                left-wheel
+;;                (overlay/align/offset 'right 'bottom
+;;                                      right-wheel 0 -10
+;;                                      body))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
