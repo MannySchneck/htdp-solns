@@ -83,3 +83,12 @@
 
 ;; (if (or (not sunny) friday?) "Go to the mall!" "Stay home")
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 10
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (define cat (rectangle 10 20 'solid 'blue))
+;; (if (> (image-width cat) (image-height cat))
+;;     "wide"
+;;     (if (< (image-width cat) (image-height cat))
+;;         "tall"
+;;         "square"))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
