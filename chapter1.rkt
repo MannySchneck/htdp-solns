@@ -57,3 +57,17 @@
 ;;                                      right-wheel 0 -10
 ;;                                      body))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (define hull (beside (triangle/sas 50 90 20 'solid 'green)
+;;                      (rectangle 100 50 'solid 'green)
+;;                      (triangle/ass 90 50 70 'solid 'green)))
+;; (define mast (rectangle 5 220 'solid 'black))
+;; (define sail (flip-horizontal (right-triangle 60 200 'solid 'white)))
+;; (define rigging (beside/align 'top sail mast))
+
+;; (overlay/align/offset 'middle 'bottom
+;;                       rigging
+;;                       20 50
+;;                       hull)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
