@@ -41,3 +41,36 @@
 ;; (check-equal? (string-first "hi") "h")
 ;; (check-equal? (string-first "nope") "n")
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 16
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; string-last: extracts the last 1String from a non-empty string
+;; String -> 1String
+;; (define (string-last s)
+;;   (substring s (sub1 (string-length s))))
+;; (check-equal? (string-last "hi") "i")
+;; (check-equal? (string-last "nope") "e")
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 17
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; bool-imply: implements the logic of boolean implication
+;; Boolean Boolean -> Boolean
+;; (define (bool-imply sunny friday)
+;;   (or (not sunny) friday))
+;; (check-equal? (bool-imply #t #t) #t)
+;; (check-equal? (bool-imply #t #f) #f)
+;; (check-equal? (bool-imply #f #t) #t)
+;; (check-equal? (bool-imply #f #f) #t)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 18
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; image-area: finds the area of an image's Racket bounding box
+;; image -> Number
+;; (define (image-area i)
+;;   (* (image-height i)
+;;      (image-width i)))
+;; (check-equal? (image-area (rectangle 20 20 'solid 'black)) 400)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 19
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

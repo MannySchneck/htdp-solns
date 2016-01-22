@@ -8,3 +8,5 @@ flycheck*q
 *.bmp
 *.png
 *.gif
+#ignore Racket temp file
+\#*#
