@@ -72,5 +72,13 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Exercise 19
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
+;; image-classify: produces "tall" if an images is taller than wide, else "wide"
+;; image -> String
+;; (define (image-classify i)
+;;   (cond [(> (image-height i) (image-width i)) "tall"]
+;;         [(< (image-height i) (image-width i)) "wide"]
+;;         [else "square"]))
+;; (check-equal? (image-classify (rectangle 100 10 'solid 'black)) "wide")
+;; (check-equal? (image-classify (rectangle 10 100 'solid 'black)) "tall")
+;; (check-equal? (image-classify (rectangle 10 10 'solid 'black)) "square")
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
