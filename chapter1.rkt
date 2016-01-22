@@ -1,4 +1,4 @@
-#lang racket
+#lang htdp/bsl
 (require 2htdp/image)
 (require 2htdp/universe)
 ;; Author: Manny Schneck
@@ -75,4 +75,11 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; (above (circle '40 'solid 'green)
 ;;        (rectangle 20 80 'solid 'brown))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 9
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (define sunny #true)
+;; (define friday? #false)
+
+;; (if (or (not sunny) friday?) "Go to the mall!" "Stay home")
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
