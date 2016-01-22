@@ -1,0 +1,10 @@
+#ignore temp files
+*~
+#ignore flycheck files
+flycheck*q
+#ignore image files
+*.jpeg
+*.jpg
+*.bmp
+*.png
+*.gif
