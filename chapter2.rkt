@@ -82,3 +82,12 @@
 ;; (check-equal? (image-classify (rectangle 10 100 'solid 'black)) "tall")
 ;; (check-equal? (image-classify (rectangle 10 10 'solid 'black)) "square")
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Exercise 20
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; string-join: joins two strings with "_" in between
+;; string_join: String String -> String
+(define (string-join s1 s2)
+  (string-append s1 "_" s2))
+(check-equal? (string-join "hi" "mom") "hi_mom")
+(check-equal? (string-join "hello" "world") "hello_world")
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
