@@ -1,0 +1,6 @@
+1: Express how you wish to represent information as data.
+2: Write down a signature, a purpose statement, and a function header.
+3: Tests
+4: Stop, take inventory, plan, template.
+5: Code
+6: Repeat from step 3 until heat death of universe.
